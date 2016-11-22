@@ -3,6 +3,7 @@ library(ggplot2)
 library(Rcpp)
 
 ## Comment added by Randy
+## added a second comment
 
 diabetes = read.csv("Project3/diabetes.csv",header=TRUE)
 head(diabetes)
