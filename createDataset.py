@@ -1,3 +1,5 @@
+
+
 # -*- coding: utf-8 -*-
 """
 Created on Sun Nov  6 01:54:53 2016
@@ -16,7 +18,8 @@ pd.set_option("display.max_columns", 30) #set to view all columns in dataset
 
 
 #set directory for saving dataset
-parent = os.path.dirname(__file__)
+#parent = os.path.dirname(__file__)
+parent = 'c:\\Users\\anobs\\Documents\\GitHub\\MSDS6372_Project3'
 BookDir = os.path.join(parent, 'Books')
 DataDir = os.path.join(parent, 'Data')
 
